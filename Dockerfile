@@ -1,6 +1,6 @@
 FROM node:13.12.0-alpine
 
-ENV APP_HOME /alexander_jasper_ui_garden_build_checks
+ENV APP_HOME /alexander_jasper_final_site
 WORKDIR $APP_HOME
 
 COPY package.json ./
@@ -8,9 +8,9 @@ COPY package-lock.json ./
 
 RUN npm install --silent
 
-ENV PORT 8018
+ENV PORT 5575
 
-EXPOSE 8018
+EXPOSE 5575
 
 COPY . .
-CMD ["npm", "run", "storybook"]
+CMD ["npm", "run", "start"]
