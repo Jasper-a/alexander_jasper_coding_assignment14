@@ -12,7 +12,7 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "react-scripts start -p 5575",
+    "start": "react-scripts start",
     "storybook": "start-storybook -p 5574",
     "build-storybook": "build-storybook",
     "rollup": "rollup -c",

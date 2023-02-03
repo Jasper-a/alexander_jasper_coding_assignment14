@@ -3,5 +3,5 @@ export interface TextProps {
   disabled?: boolean
   backgroundColor?: string
   display?: string
-  size?: int
+  size?: string
 }
