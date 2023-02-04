@@ -39,7 +39,7 @@ interface HeroCardProps {
 
 declare const HeroCard: FC<HeroCardProps>;
 
-interface ImgProps$1 {
+interface ImgProps {
     src?: string;
     disabled?: boolean;
     backgroundColor?: string;
@@ -47,7 +47,7 @@ interface ImgProps$1 {
     opacity?: number;
 }
 
-declare const Img$1: FC<ImgProps$1>;
+declare const Img: FC<ImgProps>;
 
 interface LabelProps {
     text?: string;
@@ -97,14 +97,39 @@ interface TextProps {
 
 declare const Text: FC<TextProps>;
 
-interface ImgProps {
-    src?: string;
-    disabled?: boolean;
+interface BasicInformationProps {
     backgroundColor?: string;
-    width?: string;
-    opacity?: number;
+    fontFamily?: string;
 }
 
-declare const Img: FC<ImgProps>;
+declare const BasicInformation: FC<BasicInformationProps>;
 
-export { Img as BasicInformation, Button, Card, Dropdown, HeroCard, Img$1 as Img, Label, RadioButton, Table, Text };
+interface WorkProps {
+    backgroundColor?: string;
+    fontFamily?: string;
+}
+
+declare const Work: FC<WorkProps>;
+
+interface SkillsProps {
+    backgroundColor?: string;
+    fontFamily?: string;
+}
+
+declare const Skills: FC<SkillsProps>;
+
+interface ResourcesProps {
+    backgroundColor?: string;
+    fontFamily?: string;
+}
+
+declare const Resources: FC<ResourcesProps>;
+
+interface DeveloperSetupProps {
+    backgroundColor?: string;
+    fontFamily?: string;
+}
+
+declare const DeveloperSetup: FC<DeveloperSetupProps>;
+
+export { BasicInformation, Button, Card, DeveloperSetup, Dropdown, HeroCard, Img, Label, RadioButton, Resources, Skills, Table, Text, Work };

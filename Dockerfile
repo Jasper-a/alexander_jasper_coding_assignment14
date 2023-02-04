@@ -8,9 +8,9 @@ COPY package-lock.json ./
 
 RUN npm install --silent
 
-ENV PORT 5575
+ENV PORT 5574
 
-EXPOSE 5575
+EXPOSE 5574
 
 COPY . .
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "storybook"]
