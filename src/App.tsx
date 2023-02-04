@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import {BasicInformation} from '@jasper-a/alexander_jasper_coding_assignment14';
+import {Work} from '@jasper-a/alexander_jasper_coding_assignment14';
+import {Skills} from '@jasper-a/alexander_jasper_coding_assignment14';
+import {Resources} from '@jasper-a/alexander_jasper_coding_assignment14';
+import {DeveloperSetup} from '@jasper-a/alexander_jasper_coding_assignment14';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BasicInformation fontFamily='consolas' />
+      <Work fontFamily='consolas' />
+      <Skills fontFamily='consolas' />
+      <Resources fontFamily='consolas' />
+      <DeveloperSetup fontFamily='consolas' />
     </div>
   );
 }
