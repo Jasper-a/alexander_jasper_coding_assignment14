@@ -1,5 +1,7 @@
-export interface LabelProps {
+export interface TextProps {
     text?: string;
     disabled?: boolean;
     backgroundColor?: string;
+    display?: string;
+    size?: string;
 }

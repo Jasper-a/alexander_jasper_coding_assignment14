@@ -3,8 +3,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jasper-a"
   },
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Basic library as I add portfolio components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
